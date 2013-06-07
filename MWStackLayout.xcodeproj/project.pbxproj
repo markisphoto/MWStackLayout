@@ -21,6 +21,7 @@
 		465A043D1761750500A17C1E /* MWStackLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 465A043C1761750500A17C1E /* MWStackLayout.m */; };
 		465A0440176184F100A17C1E /* MWPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 465A043F176184F100A17C1E /* MWPhotoCell.m */; };
 		465A04431761859800A17C1E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465A04411761859200A17C1E /* QuartzCore.framework */; };
+		465A04451761872200A17C1E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 465A04441761872200A17C1E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		465A043E176184F100A17C1E /* MWPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoCell.h; sourceTree = "<group>"; };
 		465A043F176184F100A17C1E /* MWPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhotoCell.m; sourceTree = "<group>"; };
 		465A04411761859200A17C1E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		465A04441761872200A17C1E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		465A041E17616FA200A17C1E /* MWStackLayout */ = {
 			isa = PBXGroup;
 			children = (
+				465A04441761872200A17C1E /* README.md */,
 				465A042717616FA200A17C1E /* MWAppDelegate.h */,
 				465A042817616FA200A17C1E /* MWAppDelegate.m */,
 				465A043017616FA200A17C1E /* MainStoryboard.storyboard */,
@@ -178,6 +181,7 @@
 				465A042D17616FA200A17C1E /* Default@2x.png in Resources */,
 				465A042F17616FA200A17C1E /* Default-568h@2x.png in Resources */,
 				465A043217616FA200A17C1E /* MainStoryboard.storyboard in Resources */,
+				465A04451761872200A17C1E /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
