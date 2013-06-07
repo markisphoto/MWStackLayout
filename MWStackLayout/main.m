@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "SLAppDelegate.h"
+#import "MWAppDelegate.h"
 
 int main(int argc, char *argv[])
 {

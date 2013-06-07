@@ -1,5 +1,5 @@
 //
-//  MWAppDelegate.h
+//  MWPhotoCell.h
 //  MWStackLayout
 //
 //  Created by Mark Warnick on 6/6/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SLAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface MWPhotoCell : UICollectionViewCell
 
 @end

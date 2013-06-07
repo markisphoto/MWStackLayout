@@ -12,12 +12,15 @@
 		465A041D17616FA200A17C1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465A041C17616FA200A17C1E /* CoreGraphics.framework */; };
 		465A042317616FA200A17C1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 465A042117616FA200A17C1E /* InfoPlist.strings */; };
 		465A042517616FA200A17C1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 465A042417616FA200A17C1E /* main.m */; };
-		465A042917616FA200A17C1E /* SLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 465A042817616FA200A17C1E /* SLAppDelegate.m */; };
+		465A042917616FA200A17C1E /* MWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 465A042817616FA200A17C1E /* MWAppDelegate.m */; };
 		465A042B17616FA200A17C1E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 465A042A17616FA200A17C1E /* Default.png */; };
 		465A042D17616FA200A17C1E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 465A042C17616FA200A17C1E /* Default@2x.png */; };
 		465A042F17616FA200A17C1E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 465A042E17616FA200A17C1E /* Default-568h@2x.png */; };
 		465A043217616FA200A17C1E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465A043017616FA200A17C1E /* MainStoryboard.storyboard */; };
-		465A043517616FA200A17C1E /* SLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 465A043417616FA200A17C1E /* SLViewController.m */; };
+		465A043517616FA200A17C1E /* MWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 465A043417616FA200A17C1E /* MWViewController.m */; };
+		465A043D1761750500A17C1E /* MWStackLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 465A043C1761750500A17C1E /* MWStackLayout.m */; };
+		465A0440176184F100A17C1E /* MWPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 465A043F176184F100A17C1E /* MWPhotoCell.m */; };
+		465A04431761859800A17C1E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465A04411761859200A17C1E /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +32,19 @@
 		465A042217616FA200A17C1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		465A042417616FA200A17C1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		465A042617616FA200A17C1E /* MWStackLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MWStackLayout-Prefix.pch"; sourceTree = "<group>"; };
-		465A042717616FA200A17C1E /* SLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLAppDelegate.h; sourceTree = "<group>"; };
-		465A042817616FA200A17C1E /* SLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLAppDelegate.m; sourceTree = "<group>"; };
+		465A042717616FA200A17C1E /* MWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWAppDelegate.h; sourceTree = "<group>"; };
+		465A042817616FA200A17C1E /* MWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWAppDelegate.m; sourceTree = "<group>"; };
 		465A042A17616FA200A17C1E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		465A042C17616FA200A17C1E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		465A042E17616FA200A17C1E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		465A043117616FA200A17C1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		465A043317616FA200A17C1E /* SLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLViewController.h; sourceTree = "<group>"; };
-		465A043417616FA200A17C1E /* SLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLViewController.m; sourceTree = "<group>"; };
+		465A043317616FA200A17C1E /* MWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWViewController.h; sourceTree = "<group>"; };
+		465A043417616FA200A17C1E /* MWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWViewController.m; sourceTree = "<group>"; };
+		465A043B1761750500A17C1E /* MWStackLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWStackLayout.h; sourceTree = "<group>"; };
+		465A043C1761750500A17C1E /* MWStackLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWStackLayout.m; sourceTree = "<group>"; };
+		465A043E176184F100A17C1E /* MWPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPhotoCell.h; sourceTree = "<group>"; };
+		465A043F176184F100A17C1E /* MWPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPhotoCell.m; sourceTree = "<group>"; };
+		465A04411761859200A17C1E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465A04431761859800A17C1E /* QuartzCore.framework in Frameworks */,
 				465A041917616FA200A17C1E /* UIKit.framework in Frameworks */,
 				465A041B17616FA200A17C1E /* Foundation.framework in Frameworks */,
 				465A041D17616FA200A17C1E /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +82,7 @@
 		465A041717616FA200A17C1E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				465A04411761859200A17C1E /* QuartzCore.framework */,
 				465A041817616FA200A17C1E /* UIKit.framework */,
 				465A041A17616FA200A17C1E /* Foundation.framework */,
 				465A041C17616FA200A17C1E /* CoreGraphics.framework */,
@@ -83,12 +93,16 @@
 		465A041E17616FA200A17C1E /* MWStackLayout */ = {
 			isa = PBXGroup;
 			children = (
-				465A042717616FA200A17C1E /* SLAppDelegate.h */,
-				465A042817616FA200A17C1E /* SLAppDelegate.m */,
+				465A042717616FA200A17C1E /* MWAppDelegate.h */,
+				465A042817616FA200A17C1E /* MWAppDelegate.m */,
 				465A043017616FA200A17C1E /* MainStoryboard.storyboard */,
-				465A043317616FA200A17C1E /* SLViewController.h */,
-				465A043417616FA200A17C1E /* SLViewController.m */,
+				465A043317616FA200A17C1E /* MWViewController.h */,
+				465A043417616FA200A17C1E /* MWViewController.m */,
 				465A041F17616FA200A17C1E /* Supporting Files */,
+				465A043B1761750500A17C1E /* MWStackLayout.h */,
+				465A043C1761750500A17C1E /* MWStackLayout.m */,
+				465A043E176184F100A17C1E /* MWPhotoCell.h */,
+				465A043F176184F100A17C1E /* MWPhotoCell.m */,
 			);
 			path = MWStackLayout;
 			sourceTree = "<group>";
@@ -133,7 +147,7 @@
 		465A040D17616FA200A17C1E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = SL;
+				CLASSPREFIX = MW;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Mark Warnick";
 			};
@@ -175,8 +189,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				465A042517616FA200A17C1E /* main.m in Sources */,
-				465A042917616FA200A17C1E /* SLAppDelegate.m in Sources */,
-				465A043517616FA200A17C1E /* SLViewController.m in Sources */,
+				465A042917616FA200A17C1E /* MWAppDelegate.m in Sources */,
+				465A043517616FA200A17C1E /* MWViewController.m in Sources */,
+				465A043D1761750500A17C1E /* MWStackLayout.m in Sources */,
+				465A0440176184F100A17C1E /* MWPhotoCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

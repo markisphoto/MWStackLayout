@@ -8,6 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+/** The MWStackLayout is a subclass of the 
+ */
+
 @interface MWStackLayout : UICollectionViewFlowLayout
+
+/** the point to which the stack collapses
+ */
+@property (nonatomic) CGPoint stackCenter;
+
+/** the amount the 
+ 
+ 0.0 is completely stacked, 1.0 is expanded to default grid view. Larger than 1.0 will spread the layout even more
+ */
+@property (nonatomic) CGFloat percentExpanded;
 
 @end

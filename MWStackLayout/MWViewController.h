@@ -1,5 +1,5 @@
 //
-//  SLViewController.h
+//  MWViewController.h
 //  MWStackLayout
 //
 //  Created by Mark Warnick on 6/6/13.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SLViewController : UIViewController
+/** MWViewController handles managing the collection view
+ */
+@interface MWViewController : UICollectionViewController
 
 @end
