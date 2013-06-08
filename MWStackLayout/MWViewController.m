@@ -29,6 +29,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     self.stackLayout.percentExpanded = 1.0f;
+    self.stackLayout.showStack = YES;
 }
 
 #pragma mark - UICollectionViewDataSource
@@ -53,6 +54,11 @@
     [self.collectionView performBatchUpdates:^{
         self.stackLayout.percentExpanded = !self.stackLayout.percentExpanded;
     } completion:nil];
+}
+
+#pragma mark - IBActions
+- (IBAction)didToggleStackEffect:(UISwitch *)sender {
+    self.stackLayout.showStack = sender.on;
 }
 
 

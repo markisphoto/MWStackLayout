@@ -17,10 +17,14 @@
  */
 @property (nonatomic) CGPoint stackCenter;
 
-/** the amount the 
+/** the amount the stack is expanded from the stack center.
  
  0.0 is completely stacked, 1.0 is expanded to default grid view. Larger than 1.0 will spread the layout even more
  */
 @property (nonatomic) CGFloat percentExpanded;
+
+/** determines if the cells under the top cell are shown or not
+ */
+@property (nonatomic) BOOL showStack;
 
 @end
